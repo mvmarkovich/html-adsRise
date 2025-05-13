@@ -1,0 +1,29 @@
+:root {
+	--nature-900: #262d3c;
+	--nature-800: #394253;
+	--nature-600: #596780;
+	--nature-500: #677691;
+	--nature-300: #939eb4;
+	--nature-100: #ced6e3;
+	--nature-50: #ebeef8;
+	--nature-000: #fff;
+	--primary-900: #0d47a1;
+	--primary-800: #1565c0;
+	--primary-600: #1e88e5;
+	--primary-200: #90caf9;
+	--primary-100: #bbdefb;
+	--primary-50: #e3f2fd;
+	--purple-300: #9d75f4;
+	--purple-50: #f0e7fd;
+	--green-300: #7ec687;
+	--green-50: #e8f5ea;
+	--orange-900: #eebd44;
+	--orange-50: #fcf4df;
+	--deep-orange-300: #e48364;
+	--deep-orange-50: #f5e8e6;
+	--background-bg1: #f5f7fc;
+	--red-600: #e53935;
+
+	--font-family: "Plus Jakarta Sans", sans-serif;
+  	--second-family: "Space Grotesk", sans-serif;
+}

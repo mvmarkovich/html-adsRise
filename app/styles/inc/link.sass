@@ -1,0 +1,22 @@
+a, .link
+    color: var(--nature-900)
+    text-decoration: none
+    transition: .2s linear
+
+    &:hover
+        color: @lg rgba(27, 36, 46, 0.6)
+
+    &:active
+        color: rgba(27, 36, 46, 0.6)
+
+a:not([class])
+    color: var(--nature-900)
+    text-decoration: underline
+    text-decoration-color: #1b242e
+
+    &:hover
+        text-decoration-color: @lg transparent
+
+    &:active
+        text-decoration-color: transparent
+    

@@ -1,0 +1,24 @@
+header.header
+    .container.header__container
+        .header__row
+            .header__logo
+                img.header__logo-img(src="img/icons/logo.svg" width="210" height="40" alt="AdsRise")
+
+            nav.header__nav
+                ul.header__nav-list
+                    each category, i in nav
+                        li.header__nav-item
+                            a.header__nav-link(href="" + category.href)= category.name
+
+            .header__panel
+                a.btn.btn--accent.btn--arrow-right(href="#") Get started
+                button.btn.btn--reset.header__burger(aria-label="Toggle mobile menu")
+                    span
+
+.header__overlay
+                
+
+                    
+
+
+            

@@ -1,0 +1,32 @@
+.banner
+    position: relative
+
+    &__body
+        min-height: 100vh
+        padding: 90px 0 @sm 110px 0 @lg 146px 0 @xl 166px 0
+
+    &__img--wrap
+        source, img
+            position: absolute 0 null null 50%
+            transform: translateX(-50%)
+            z-index: -1
+            width: 100vw
+            height: 100%
+            max-width: 1920px
+            object-fit: cover
+
+    &__content
+        max-width: 910px
+
+    &__title
+        color: var(--primary-900)
+        margin-bottom: 20px @sm 40px @lg 60px
+
+    &__desc 
+        color: var(--primary-900)
+        text: 400 16px 1.3 @sm 20px @lg 24px
+        margin: 0
+        max-width: 710px
+
+    &__actions
+        margin-top: 20px @sm 40px @lg 60px

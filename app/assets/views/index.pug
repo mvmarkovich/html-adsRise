@@ -1,0 +1,39 @@
+extends layouts/layout.pug
+
+block title
+    title Landing | AdsRise
+
+block content
+    section.section.section--banner
+        include blocks/banner
+
+    section.section#section-formats
+        .section__head
+            .section__label Formats
+            h2.section__title The Most Efficient Ad Formats
+
+        include blocks/formats
+
+    section.section.section--bg-gray#section-sources
+        .section__head
+            .section__label Sources
+            h2.section__title Traffic Sources
+
+        include blocks/sources
+
+    section.section#section-benefits
+        .section__head
+            .section__label What We Offer
+            h2.section__title Why Choose AdsRise
+
+        include blocks/benefits
+
+    section.section
+        include blocks/hero
+
+    section.section#section-about
+        include blocks/about
+
+    section.section.section--bg-blue
+        include blocks/contacts
+

@@ -1,0 +1,108 @@
+.sources
+    &__nav
+        width: 100%
+
+        &-list
+            list-style: none
+            padding: 0
+            margin: 0
+
+        &-item
+            cursor: pointer
+            transition: .4s ease
+            display: flex
+            align-items: flex-start
+            margin-bottom: 32px @lg 40px
+            opacity: .5
+
+            &--active
+                cursor: default
+                opacity: 1
+
+                &:nth-child(1)
+                    ^^^&-icon--wrap
+                        background: var(--primary-600)
+                        
+                &:nth-child(2)
+                    ^^^&-icon--wrap
+                        background: var(--green-300)
+
+                &:nth-child(3)
+                    ^^^&-icon--wrap
+                        background: var(--deep-orange-300)
+
+                &:nth-child(4)
+                    ^^^&-icon--wrap
+                        background: var(--orange-900)
+
+            &:last-child
+                margin-bottom: 0
+
+            &:hover
+                opacity: @lg 1
+
+        &-icon
+            min-width: 24px
+            max-width: 24px
+
+            &--wrap
+                display: flex
+                align-items: center
+                justify-content: center
+                size: 48px
+                min-width: 48px
+                border-radius: 50%
+                background: var(--nature-500)
+                margin-right: 20px
+                transition: .4s ease
+
+        &-name
+            font-family: var(--second-family)
+            color: var(--nature-900)
+            text: 700 16px 1.25 @md 24px @xl 32px
+
+        &-desc
+            text: 14px @md 16px @xl 20px
+            margin: 4px 0 0
+
+    &__content
+        position: relative
+        width: 100%
+        margin-left: @xl 40px
+        padding-top: 58.5%
+        margin-top: 40px
+
+    &__section
+        position: absolute
+        top: 50%
+        left: 0
+        transform: translateY(-50%)
+        opacity: 0
+        visibility: hidden
+        width: 100%
+        transition: .4s
+
+        &--show
+            opacity: 1
+            visibility: visible
+
+    &__img
+        width: 100%
+
+        &--wrap
+            border-radius: 20px
+            overflow: hidden
+
+@media (min-width: 1260px)
+    .sources
+        &__tabs
+            display: flex
+            align-items: center
+
+        &__content
+            min-width: 740px
+            max-width: 740px
+            padding-top: 0
+            margin-left: 20px
+            margin-top: 0
+        

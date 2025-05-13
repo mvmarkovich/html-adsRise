@@ -1,0 +1,17 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/plus-jakarta-sans/plus-jakarta-sans-regular.woff2') format('woff2'),
+		url('../fonts/plus-jakarta-sans/plus-jakarta-sans-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/space-grotesk/space-grotesk-bold.woff2') format('woff2'),
+		url('../fonts/space-grotesk/space-grotesk-bold.ttf') format('truetype');
+}

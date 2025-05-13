@@ -1,0 +1,52 @@
+.section
+    position: relative
+    z-index: 1
+    margin: 40px 0 @lg 80px 0
+
+    &:last-child
+        margin-bottom: 0
+
+    &:first-child
+        margin-top: 0
+
+    &--banner
+        margin-top: -70px @lg -86px
+
+        &:first-child
+            margin-top: -70px @lg -86px
+
+    &--bg-blue
+        padding: 40px 0 @lg 80px 0
+
+        &::before
+            content: ''
+            size: 100vw 100%
+            background: var(--primary-50)
+            position: absolute 50% null null 50%
+            transform: translate(-50%, -50%)
+            z-index: -1
+
+        &:last-child
+            padding-bottom: 40px
+
+    &--bg-gray
+        padding: 40px 0 @lg 80px 0
+
+        &::before
+            content: ''
+            size: 100vw 100%
+            background: var(--background-bg1)
+            position: absolute 50% null null 50%
+            transform: translate(-50%, -50%)
+            z-index: -1
+
+    &__head
+        margin-bottom: 40px @lg 60px
+
+    &__label
+        color: var(--primary-800)
+        text: 20px @lg 24px
+        margin-bottom: 16px
+
+    &__title
+        margin: 0

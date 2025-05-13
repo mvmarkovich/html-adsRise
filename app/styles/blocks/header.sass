@@ -1,0 +1,150 @@
+.header
+    position: sticky
+    top: 0
+    z-index: 641
+    transition: .2s ease
+
+    &--sticky
+        background: var(--nature-000)
+
+    &__row
+        display: flex
+        align-items: center
+        justify-content: space-between
+        min-height: 70px @lg 86px
+
+    &__logo
+        cursor: pointer
+        display: block
+        min-width: 126px @sm 158px @lg 172px @xl 210px
+        max-width: 126px @sm 158px @lg 172px @xl 210px
+        transition: .2s ease
+
+        &:hover
+            opacity: @lg .7
+
+        &:active
+            opacity: .7
+
+    &__nav
+        margin-left: @lg auto
+        position: @lg-down fixed
+        top: @lg-down 69px
+        width: @lg-down 100%
+        left: @lg-down 0
+        background: @lg-down var(--nature-000)
+        padding: @lg-down 20px 0
+        border-radius: @lg-down 0 0 16px 16px
+        opacity: @lg-down 0
+        visibility: @lg-down hidden
+        z-index: @lg-down -2
+        transition: @lg-down .4s ease
+
+        &-list
+            list-style: none
+            padding: 0
+            margin: 0
+
+            display: @lg flex
+            align-items: @lg center
+
+        &-item
+            margin-right: @lg 20px
+            margin-bottom: @lg-down 20px
+            padding: @lg-down 0 20px @sm-down 0 16px
+
+            &:last-child
+                margin: 0
+
+        &-link
+            color: var(--nature-900)
+            text: 400 20px 1.2 @lg 16px 1.4 @xl 20px
+
+    &__panel
+        display: flex
+        align-items: center
+        margin-left: 40px
+
+        .btn--accent
+            padding: @lg-down 0 16px
+            min-height: @lg-down 40px
+
+    &__overlay
+        position: fixed 0
+        background: rgba(0, 0, 0, .4)
+        z-index: -1
+        opacity: 0
+        visibility: hidden
+        transition: .4s opacity
+
+        &--show
+            opacity: @lg-down 1
+            visibility: @lg-down visible
+            z-index: @lg-down 20
+
+    &__burger
+        cursor: pointer
+        height: 48px
+        width: 24px
+        overflow: visible
+        position: relative
+        z-index: 2
+        margin-left: 16px
+        display: @lg none
+
+        span
+            position: relative
+            background: #0d47a1
+            display: block
+            size: 14px 2px
+            border-radius: 2px
+            opacity: 1
+            transition: .4s ease-in-out
+
+            &:before, &:after
+                background: #0d47a1
+                display: block
+                height: 2px
+                opacity: 1
+                position: absolute
+                transition: .4s ease-in-out
+                border-radius: 2px
+
+            &:before, &:after
+                content: ""
+
+                right: 0px
+
+            &:before
+                top: -6px
+                width: 20px
+
+            &:after
+                top: 6px
+                width: 16px
+
+.header-mobile-menu
+    background: @lg-down var(--nature-000)
+
+    .header__nav
+        opacity: @lg-down 1
+        visibility: @lg-down visible
+        z-index: @lg-down 20
+
+    .header__burger
+        span
+            transform: rotate(-45deg)
+            top: 0
+            width: 18px
+
+            &:before
+                top: 0px
+                transform: rotate(90deg)
+                width: 18px
+
+            &:after
+                top: 0px
+                left: 0
+                transform: rotate(90deg)
+                opacity: 0
+                width: 0

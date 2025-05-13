@@ -1,0 +1,54 @@
+.hero
+    position: relative
+    z-index: 1
+    min-height: 254px @lg 364px @xl 400px
+    display: @md flex
+    align-items: @md center
+    justify-content: @md space-between
+    padding: 40px 0 12px @md 0
+
+    &::before
+        content: ''
+        size: 100vw 100%
+        background: var(--primary-50)
+        position: absolute 50% null null 50%
+        transform: translate(-50%, -50%)
+        z-index: -2
+
+    &:after
+        content: ''
+        size: 100vw 100%
+        background-image: resolve("content/hero/bg-mobile.svg") @md resolve("content/hero/bg-tablet.svg") @lg resolve("content/hero/bg-desktop.svg")
+        background-position: center
+        background-size: cover
+        position: absolute 50% null null 50%
+        transform: translate(-50%, -50%)
+        z-index: -1
+
+    &__content
+        width: @md 50%
+        padding: @md 32px 0
+
+    &__title
+        margin: 0
+
+    &__desc
+        text: 14px 1.4 @lg 20px
+        margin: 20px 0 0
+
+    &__img
+        position: absolute
+        top: 50%
+        right: 0
+        transform: translateY(-50%)
+        margin-top: 0 @lg 56px @xl 120px
+
+        &--wrap
+            position: relative @md absolute
+            top: @md 0
+            right: @md 0
+            width: @md 50%
+            height: @md 100%
+            overflow: hidden
+            padding-top: @md-down 80%
+            margin-top: @md-down 24px
