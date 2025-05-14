@@ -835,6 +835,18 @@ img {
   position: relative;
 }
 
+.banner::before {
+  content: '';
+  width: 100vw;
+  height: 100%;
+  background: #e4f2fd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
 .banner__body {
   min-height: 100vh;
   padding: 90px 0;
