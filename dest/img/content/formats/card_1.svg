@@ -1,26 +1,43 @@
-<svg width="860" height="416" viewBox="0 0 860 416" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_197_10936)">
-<path d="M0 22.1935C0 9.93638 9.93639 0 22.1935 0H837.806C850.064 0 860 9.93639 860 22.1935V416H0V22.1935Z" fill="#F5E8E6"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M36.705 45.7744C41.655 45.7744 45.6677 41.7378 45.6677 36.7583C45.6677 31.7788 41.655 27.7422 36.705 27.7422C31.755 27.7422 27.7422 31.7788 27.7422 36.7583C27.7422 41.7378 31.755 45.7744 36.705 45.7744Z" fill="#E48364"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M67.1112 45.7744C72.0612 45.7744 76.074 41.7378 76.074 36.7583C76.074 31.7788 72.0612 27.7422 67.1112 27.7422C62.1612 27.7422 58.1484 31.7788 58.1484 36.7583C58.1484 41.7378 62.1612 45.7744 67.1112 45.7744Z" fill="#E48364"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M97.5253 45.7744C102.475 45.7744 106.488 41.7378 106.488 36.7583C106.488 31.7788 102.475 27.7422 97.5253 27.7422C92.5753 27.7422 88.5625 31.7788 88.5625 36.7583C88.5625 41.7378 92.5753 45.7744 97.5253 45.7744Z" fill="#E48364"/>
-<rect x="27.7422" y="73.5156" width="790.645" height="45.7742" fill="#E48364" fill-opacity="0.2"/>
-<rect x="27.7422" y="147.031" width="755.968" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-<rect x="27.7422" y="169.227" width="466.065" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-<rect x="27.7422" y="212.227" width="131.774" height="102.645" fill="#E48364" fill-opacity="0.2"/>
-<rect x="27.7422" y="330.129" width="104.032" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-<rect x="192.461" y="212.227" width="131.774" height="102.645" fill="#E48364" fill-opacity="0.2"/>
-<rect x="192.461" y="330.129" width="104.032" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-<rect x="357.18" y="212.227" width="131.774" height="102.645" fill="#E48364" fill-opacity="0.2"/>
-<rect x="357.18" y="330.129" width="104.032" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-<rect x="521.898" y="212.227" width="131.774" height="102.645" fill="#E48364" fill-opacity="0.2"/>
-<rect x="521.898" y="330.129" width="104.032" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-<rect x="686.609" y="212.227" width="131.774" height="102.645" fill="#E48364" fill-opacity="0.2"/>
-<rect x="686.609" y="330.129" width="104.032" height="15.2581" fill="#E48364" fill-opacity="0.2"/>
-</g>
-<defs>
-<clipPath id="clip0_197_10936">
-<path d="M0 22.1935C0 9.93638 9.93639 0 22.1935 0H837.806C850.064 0 860 9.93639 860 22.1935V416H0V22.1935Z" fill="white"/>
-</clipPath>
-</defs>
+<svg width="620" height="300" viewBox="0 0 620 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 16C0 7.16345 7.16344 0 16 0H604C612.837 0 620 7.16344 620 16V300H0V16Z" fill="#F5E8E6"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M26.4615 33C30.0301 33 32.9231 30.0899 32.9231 26.5C32.9231 22.9101 30.0301 20 26.4615 20C22.8929 20 20 22.9101 20 26.5C20 30.0899 22.8929 33 26.4615 33Z" fill="#E48364"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M48.3834 33C51.952 33 54.845 30.0899 54.845 26.5C54.845 22.9101 51.952 20 48.3834 20C44.8148 20 41.9219 22.9101 41.9219 26.5C41.9219 30.0899 44.8148 33 48.3834 33Z" fill="#E48364"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M70.3053 33C73.8739 33 76.7668 30.0899 76.7668 26.5C76.7668 22.9101 73.8739 20 70.3053 20C66.7367 20 63.8438 22.9101 63.8438 26.5C63.8438 30.0899 66.7367 33 70.3053 33Z" fill="#E48364"/>
+    <rect x="20" y="53" width="570" height="33" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="20" y="106" width="545" height="11" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="20" y="122" width="336" height="11" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="20" y="153" width="95" height="74" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="20" y="238" width="75" height="11" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="138.75" y="153" width="95" height="74" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="138.75" y="238" width="75" height="11" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="257.5" y="153" width="95" height="74" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="257.5" y="238" width="75" height="11" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="376.25" y="153" width="95" height="74" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="376.25" y="238" width="75" height="11" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="495" y="153" width="95" height="74" fill="#E48364" fill-opacity="0.2"/>
+    <rect x="495" y="238" width="75" height="11" fill="#E48364" fill-opacity="0.2"/>
+    
+    <g>
+        <rect x="280" y="200" width="320" height="80" rx="8" fill="#E48364"/>
+        <rect opacity="0.5" width="176.957" height="11" rx="5.5" transform="matrix(1 0 -0.00187066 0.999998 355.039 223.324)" fill="white"/>
+        <rect opacity="0.5" x="355" y="245" width="101" height="11" rx="5.5" fill="white"/>
+        <rect opacity="0.5" x="295" y="215" width="50" height="50" rx="8" fill="white"/>
+        <path d="M585.531 213.529C585.792 213.269 586.214 213.269 586.474 213.529C586.734 213.79 586.734 214.212 586.474 214.472L582.945 218.001L586.474 221.529L586.519 221.58C586.733 221.842 586.718 222.228 586.474 222.472C586.23 222.716 585.844 222.731 585.582 222.518L585.531 222.472L582.003 218.943L578.474 222.472C578.214 222.732 577.792 222.732 577.531 222.472C577.271 222.212 577.271 221.79 577.531 221.529L581.06 218.001L577.531 214.472L577.486 214.421C577.272 214.159 577.287 213.773 577.531 213.529C577.775 213.285 578.161 213.27 578.423 213.484L578.474 213.529L582.003 217.058L585.531 213.529Z" fill="#F5E8E6"/>
+
+        <animateTransform
+            attributeType="xml" 
+            attributeName="transform"
+            type="translate"
+            dur="3s"
+            values="0,200; 0,200; 0,200; 0,200; 0,-10;0,0;0,0;0,0;0,0;0,0;0,0"
+            repeatCount="indefinite"
+        />
+
+        <animate 
+            attributeName="opacity"
+            dur="3s"
+            values="1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 0"
+            repeatCount="indefinite"
+        />
+    </g>
 </svg>
