@@ -29,7 +29,7 @@ headerOverlay.addEventListener("click", toggleMobileMenu);
 // Anchors
 //
 
-document.querySelectorAll('a[href^="#"').forEach(link => {
+document.querySelectorAll('.header__nav a[href^="#"').forEach(link => {
 	link.addEventListener('click', function (e) {
 		e.preventDefault();
 
